@@ -1,0 +1,166 @@
+
+h1 {
+    text-align:center;
+    font-weight:100;
+    display: grid;
+    grid-template-rows: 20px 0;
+    grid-template-columns: 1fr auto 1fr;
+    grid-gap: 20px;
+    justify-content:center;
+    margin-left: 13em;
+    margin-right: 13em;
+  }
+  
+   h1:after,h1:before {
+    content: " ";
+    display: block;
+    border-bottom: 1px solid grey;
+  }
+.flex-container
+{
+    padding:6rem;
+    margin-left:10em;
+    margin-bottom:22em;
+    
+}
+.flex-item
+{
+   height:  320px;
+   width:  320px;
+   border: 1px solid red;
+   justify-content:center;
+   align-items: center;
+   margin-left: 13em;
+   box-shadow: 5px 5px 4px 2px lightgrey;
+
+    
+
+}
+.circle
+{
+    font-size: 24px;
+    color:red;
+     margin-top:10px;
+   justify-content:flex-end;
+   margin-left:10em;
+    align-items: flex-end;
+     margin-top:5.6em;
+    margin-left:12em;
+}
+.circle2
+{
+  font-size:34px;
+ margin-left:16em;
+ color: red;
+}
+.container2
+{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /*margin-right:20em;*/
+}
+.b
+{
+  font-size:28px;
+  text-align: center;
+  margin-right:21em;
+  color: gray;
+}
+.n
+{
+    margin-left: 4em;
+    color:red;
+    font-size: large;
+    text-decoration: line-through;
+    font-weight:bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.n2
+{
+  margin-left:4em;
+    color:red;
+    font-size:28px;
+}
+.l
+{
+  margin-left:4em;
+}
+@media (min-width:320px) and (max-width:480px){
+.circle2 {
+    font-size: 20px;
+    margin-left: 6em;
+    color: red;
+    margin-top:2em;
+    
+}
+
+.b{
+  font-size:20px;
+  margin-top:2em;
+  margin-left:10px;
+
+}
+
+h1 {
+  text-align:center;
+  font-weight:100;
+  display: grid;
+  grid-template-rows: 13px 0;
+  grid-template-columns: 36px auto 36px;
+  grid-gap: 4px;
+  justify-content:center;
+  margin-left: 1px;
+  margin-right: 1px;
+  font-size:25px;
+}
+
+ h1:after,h1:before {
+  content: " ";
+  display:block;
+  border-bottom: 1px solid grey;
+}
+.flex-container
+{
+    padding:0rem;
+    margin-left:3em;
+    margin-top:4em;
+    margin-bottom:6em;
+    
+}
+.flex-item{
+  height:180px;
+  width:180px;
+ /* margin-right:em;*/
+  margin-left:1em;
+}
+.n2{
+  font-size:17px;
+  font-weight:bolder;
+}
+.n{
+  font-size:15px;
+  margin-left:2rem;
+}
+.nil{
+  font-size:15px;
+}
+.l{
+  margin-left:2rem;
+}
+.circle
+{
+    font-size: 16px;
+    color:red;
+     margin-top:10px;
+   justify-content:flex-end;
+   margin-left:10em;
+    align-items: flex-end;
+     margin-top:2em;
+    margin-left:10em;
+}
+
+}
+  
+
+

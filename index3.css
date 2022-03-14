@@ -1,0 +1,291 @@
+.text
+{
+    position:relative;
+    filter:blur(6px);
+    
+    
+}
+h1 {
+    text-align:center;
+    font-weight:100;
+    display: grid;
+    grid-template-rows: 20px 0;
+    grid-template-columns: 1fr auto 1fr;
+    grid-gap: 20px;
+    justify-content:center;
+    margin-left: 18em;
+    margin-right: 18em;
+  }
+  
+   h1:after,h1:before {
+    content: " ";
+    display: block;
+    border-bottom: 1px solid grey;
+  }
+.flex-container
+{
+    padding:6rem;
+    margin-left:10em;
+    
+    
+}
+.flex-item
+{
+   height:  320px;
+   width:  320px;
+   border: 1px solid red;
+   justify-content:center;
+   align-items: center;
+   margin-left: 13em;
+   box-shadow: 5px 5px 4px 2px lightgrey;
+
+    
+
+}
+.circle
+{
+    font-size: 24px;
+    color:red;
+     margin-top:10px;
+   justify-content:flex-end;
+   margin-left:10em;
+    align-items: flex-end;
+     margin-top:4.5em;
+    margin-left:12em;
+}
+.circle2
+{
+  font-size:34px;
+ margin-left:16em;
+ color: red;
+}
+.container2
+{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+.b
+{
+  font-size:28px;
+  text-align: center;
+  margin-right:21em;
+  color: gray;
+}
+.n
+{
+    margin-left: 4em;
+    color:red;
+    font-size: large;
+    text-decoration: line-through;
+    font-weight:bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.n2
+{
+  margin-left:4em;
+    color:red;
+    font-size:28px;
+}
+
+.grand
+{
+ padding:5em;
+
+ margin-top: 145px;
+}
+.parent
+{
+    border:1px solid red;
+    height:190px;
+    width:380px;
+    margin-left:23em;
+    box-shadow: 5px 5px 4px 2px lightgrey;
+    border-radius:3px;
+
+}
+.l
+{
+    text-align:center;
+    margin-left:1rem;
+    margin-top:2rem;
+    color:red;
+}
+
+input[type=text]
+     {
+        width: 85%;
+        height:26px;
+      
+        box-sizing: border-box;
+        border: 1px solid red;
+      
+        outline: none;
+        border-radius:3px;
+}
+.child
+{
+    border:1px solid red;
+    height:24px;
+    width:66px;
+    margin-left:10em;
+    margin-top:3rem;
+    border-radius:12px;
+    background-color:red;
+    color:white;
+    justify-content:center;
+    align-items: center;
+
+}
+.j
+{
+    margin-left:14px;
+    margin-top:2px;
+    color:white;
+}
+.popup{
+    justify-content:center;
+    align-items: center;
+    position:absolute;
+    margin-left:-3ch;
+    margin-top:-570px;
+    border:5px olid red;
+    display:block;
+    padding:50 px;
+   
+}
+
+ body
+ {
+     background-color: white;
+    
+     margin-top:18px;
+     margin-left:3px;
+     margin-right:3px;
+ }
+ @media (min-width:320px) and (max-width:480px)
+ {
+  .circle2 {
+    font-size: 20px;
+    margin-left: 6em;
+    color: red;
+    margin-top:2em;
+    
+}
+
+.b{
+  font-size:20px;
+  margin-top:2em;
+  margin-left:10px;
+
+}
+
+h1 {
+  text-align:center;
+  font-weight:100;
+  display: grid;
+  grid-template-rows: 13px 0;
+  grid-template-columns: 36px auto 36px;
+  grid-gap: 4px;
+  justify-content:center;
+  margin-left: 1px;
+  margin-right: 1px;
+  font-size:25px;
+}
+
+ h1:after,h1:before {
+  content: " ";
+  display:block;
+  border-bottom: 1px solid grey;
+}
+.flex-container
+{
+    padding:0rem;
+    margin-left:3em;
+    margin-top:4em;
+    margin-bottom:6em;
+    
+}
+.flex-item{
+  height:180px;
+  width:180px;
+ /* margin-right:em;*/
+  margin-left:1em;
+}
+.n2{
+  font-size:17px;
+  font-weight:bolder;
+}
+.n{
+  font-size:15px;
+  margin-left:2rem;
+}
+.nil{
+  font-size:15px;
+}
+.l{
+  margin-left:2rem;
+}
+.circle
+{
+    font-size: 16px;
+    color:red;
+     margin-top:10px;
+   justify-content:flex-end;
+   margin-left:10em;
+    align-items: flex-end;
+     margin-top:2em;
+    margin-left:10em;
+}
+.popup{
+  justify-content:center;
+  align-items: center;
+  position:absolute;
+  margin-left:-3ch;
+  margin-top:-570px;
+  border:5px olid red;
+  display:block;
+  padding:0px;
+ 
+}
+.parent
+{
+    border:1px solid red;
+    height:120px;
+    width:210px;
+    margin-left:2px;
+    box-shadow: 5px 5px 4px 2px lightgrey;
+    border-radius:3px;
+    margin-top:4em;
+
+}
+.nil{
+  font-size:15px;
+}
+.l{
+  margin-left:18px;
+  margin-top:13px;
+}
+.j{
+  margin-left:12px;
+    margin-top:2px;
+    color:white;
+}
+.child
+{
+    border:1px solid red;
+    height:24px;
+    width:56px;
+    margin-left:5em;
+    margin-top:1rem;
+    border-radius:12px;
+    background-color:red;
+    color:white;
+    justify-content:center;
+    align-items: center;
+
+}
+}
+ 
+ 
